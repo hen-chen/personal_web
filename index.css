@@ -1,5 +1,5 @@
 /*Text*/
-head{
+/*head{
     background-color: white;
 }
 body{
@@ -8,7 +8,7 @@ body{
     font-family: "Arial";
 }
 h1{
-    padding-left: 43%; /* double check later */
+    padding-left: 43%; /* double check later
 }
 h2{
     font-size: 35px;
@@ -17,9 +17,9 @@ p1{
   font-size: 25px;  
 }
 
-/*Styling*/
+/*Styling
 mark{
-    /*background-color: black;*/
+    /*background-color: black;
 }
 a:link {
     color: greenyellow;
@@ -46,3 +46,4 @@ a:link {
     margin: 20px;
     padding: 20px;
 }
+*/
