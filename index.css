@@ -1,4 +1,7 @@
 /*Text*/
+.content-heading{
+  padding-top: 15px;
+}
 /*head{
     background-color: white;
 }
@@ -17,10 +20,10 @@ p1{
   font-size: 25px;  
 }
 
-/*Styling
+Styling
 mark{
-    /*background-color: black;
-}
+    background-color: black;
+}*/
 a:link {
     color: greenyellow;
     background-color: transparent;
@@ -38,7 +41,7 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
-  
+ /* 
 .education{
     background-color: tomato;
     color: white;
