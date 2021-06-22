@@ -2,45 +2,66 @@
 .content-heading{
   padding-top: 15px;
 }
-/*head{
-    background-color: white;
+body {
+  padding-top: 60px;
+  color: rgb(50, 50, 50);
 }
-body{
-    background-color:rgb(45, 41, 49);
-    color: white;
-    font-family: "Arial";
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+#intro{
+  min-height: 100%;
+  background-size: cover;
+  background: url(pictures/java.png) no-repeat center center;
 }
 h1{
-    padding-left: 43%; /* double check later
+  color:black;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100px;
 }
 h2{
-    font-size: 35px;
+  color:black;
 }
-p1{
-  font-size: 25px;  
+h3{
+  color:black;
+}
+h4{
+  color:black;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-Styling
-mark{
-    background-color: black;
-}*/
-a:link {
-    color: greenyellow;
-    background-color: transparent;
-    text-decoration: none;
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(100, 100, 100);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navbar-custom {
+  background-color: rgba(232,232,232,0.8);
+} 
+
+#custom-tab {
+  font-size: larger;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  .container{
+      max-width: 1200px;
   }
-  
-  a:visited {
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: orange;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+}
  /* 
 .education{
     background-color: tomato;
