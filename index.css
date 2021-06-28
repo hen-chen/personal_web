@@ -141,7 +141,8 @@ text-decoration: none;
   position: relative;
   max-width: 50px; 
   max-height: 50px;
-  left:15px;
+  padding-bottom: 10px;
+  /* left:15px; */
 }
 .navbar-custom {
   background-color: rgba(232,232,232,0.8);
@@ -150,4 +151,6 @@ text-decoration: none;
 #custom-tab {
   font-size: larger;
   font-weight: 500;
+  padding-bottom: 0px;
+  padding-top: 10px;
 }
