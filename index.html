@@ -51,6 +51,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#Contact" id="custom-tab">Contact</a>
         </li>
+        <li class="nav-item">
+          <button onclick="darkMode()">DM Pic</button>
+        </li>
       </ul>
     </div>
   </nav>
@@ -504,7 +507,11 @@
 
 
   <!-- Include other scripts here-->
-
+  <script>
+    darkMode = () => {
+      document.body.classList.toggle('dark')
+    }
+  </script>
   <!--BootStrap JavaScript-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
